@@ -1,0 +1,3 @@
+$("#captcha").click(() => {
+    $("#captcha").hide();
+});

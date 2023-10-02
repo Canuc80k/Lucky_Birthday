@@ -1,0 +1,215 @@
+body {
+    font-family: 'Roboto';
+}
+
+.intro-title {
+    font-size: 5rem;
+}
+
+.intro-text {
+    font-size: 2.5rem;
+    margin-left: 1rem;
+}
+
+.box {
+    height: 20rem;
+    width: 50rem;
+    display: flex;
+}
+
+.intro-img {
+    height: 15rem; 
+    width: 15rem; 
+    object-fit: contain;
+}
+
+#cardList {
+    height: 16rem;
+    width: 48rem;
+    position: relative;
+    margin: 0 auto;
+    border: 0.5rem solid black;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-top: 1rem;
+    display: flex;
+}
+
+#cardList::before,
+#cardList::after {
+    content: '';
+    display: block;
+    z-index: 100;
+    width: 0px;
+    height: 0px;
+    transform: translateX(-50%);
+    border-left: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+}
+
+#cardList::before {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    border-top: 2rem solid black;
+}
+
+#cardList::after {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    border-bottom: 2rem solid black;
+}
+
+.roll-img {
+    height: 100%; 
+    width: 100%; 
+    object-fit: contain;
+}
+
+#blue1 {
+    border: solid 0.3rem blue;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#blue2 {
+    border: solid 0.3rem blue;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#blue3 {
+    border: solid 0.3rem blue;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#blue4 {
+    border: solid 0.3rem blue;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#blue5 {
+    border: solid 0.3rem blue;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#purple1 {
+    border: solid 0.3rem purple;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#purple2 {
+    border: solid 0.3rem purple;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#purple3 {
+    border: solid 0.3rem purple;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#pink1 {
+    border: solid 0.3rem hotpink;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#red1 {
+    border: solid 0.3rem red;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#yellow1 {
+    border: solid 0.3rem yellow;
+    padding: 0.2rem;
+    width: 15rem;
+    height: 15rem;
+    display: block;
+}
+
+#roll {
+    font-size: 2rem;
+    float: right;
+    margin-right: 5rem;
+    margin-top: 3rem;
+    width: 20rem;
+    height: 10rem;
+}
+
+.blue {
+    border: solid 0.3rem blue;
+}
+
+.purple {
+    border: solid 0.3rem purple;
+}
+
+.pink {
+    border: solid 0.3rem hotpink;
+}
+
+.red {
+    border: solid 0.3rem red;
+}
+
+.yellow {
+    border: solid 0.3rem yellow;
+}
+
+#finalresult {
+    position: fixed;
+    width: 80%;
+    height: 40rem;
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 2rem;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    display: none;
+}
+
+.result-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.result-image {
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
+.container {
+    margin-bottom: 5rem;
+}
